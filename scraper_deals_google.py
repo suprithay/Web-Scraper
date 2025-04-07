@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # === CONFIG ===
 sheet_url = "https://docs.google.com/spreadsheets/d/1JDYRh44C1-nvJb8t-Gsbvfp9eme72ZTF/export?format=csv&gid=1267470465"
-output_file = "All_PE_Deals.xlsx"
+output_file = "All_PE_Deals_Google.xlsx"
 
 # === LOAD FIRMS ===
 df = pd.read_csv(sheet_url)
